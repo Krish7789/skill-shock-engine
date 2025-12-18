@@ -10,7 +10,7 @@ const app = express();
 // 🔴 CORS FIX (VERY IMPORTANT)
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL,
+    origin: "https://skill-shock.vercel.app",
     methods: ["GET", "POST"],
     credentials: true,
   })
