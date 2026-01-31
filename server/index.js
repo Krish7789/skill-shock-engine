@@ -11,6 +11,8 @@ const app = express();
 app.use(
   cors({
     origin: "https://skill-shock.vercel.app",
+    
+
     methods: ["GET", "POST"],
     credentials: true,
   })
