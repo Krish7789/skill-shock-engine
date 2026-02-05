@@ -19,7 +19,7 @@ const Navbar = () => {
             <div className="w-8 h-8 rounded-lg bg-gradient-shock flex items-center justify-center">
               <Zap className="w-4 h-4 text-foreground" />
             </div>
-            <span className="font-bold text-foreground hidden sm:block">Skill Gap Shock</span>
+            <span className="font-bold text-foreground hidden sm:block">Skill Shock Engine</span>
           </button>
 
           {/* CTA */}
